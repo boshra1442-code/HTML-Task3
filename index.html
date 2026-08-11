@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bushra Ibrahim personal portfolio page">
+    <title> Portfolio</title>
+</head>
+<body>
+    <header>
+        <h2>Boshra Ebraheem</h2>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#courses">Courses</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="about">
+            <h1>Welcome to My Portfolio</h1>
+            <p>
+                Hello! My name is Boshra Ebraheem.
+                I am a Systems and Computing Engineering student
+                interested in web development and artificial intelligence.
+            </p>
+            <p>
+                I am currently learning web development and improving
+                my programming skills step by step.
+            </p>
+            <img src="assets/images/profile.jpg"width="200" alt=" profile picture">
+            <br>
+            <a href="https://github.com/" target="_blank">Visit my GitHub</a>
+        </section>
+        <hr>
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Problem Solving</li>
+            </ul>
+            <h2>My Learning Journey</h2>
+            <ol>
+                <li>Learn HTML</li>
+                <li>Learn CSS</li>
+                <li>Learn JavaScript</li>
+                <li>Build Web Projects</li>
+            </ol>
+            <p>
+                I believe that <strong>practice</strong> is the key to improving.
+                I am <em>always trying to learn</em> something new,
+                and my main goal is to become a <mark>professional developer</mark>.
+            </p>
+            <p>
+                Learning step by step helps me improve.<br>
+                Every project gives me new experience.
+            </p>
+        </section>
+        <hr>
+        <section id="courses">
+            <h2>My Courses</h2>
+            <table border="1">
+                <caption>Courses I Have Studied</caption>
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML Fundamentals</td>
+                        <td>1 Weeks</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>CSS Basics</td>
+                        <td>1 Weeks</td>
+                        <td>In Progress</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>2 Weeks</td>
+                        <td>Planned</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total Courses</td>
+                        <td>3</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <hr>
+        <section id="gallery">
+            <h2>My Gallery</h2>
+            <figure>
+                <img src="assets/images/photo_2026-08-12_00-00-25 (2).jpg"height="200"  width="200px" alt="Web development workspace">
+                <figcaption>My Web Development Workspace</figcaption>
+            </figure>
+            <figure>
+                <img src="assets/images/code.jpg" height="200" width="200px" alt="Programming code on a screen">
+                <figcaption>Learning Programming</figcaption>
+            </figure>
+            <figure>
+                <img src="assets/images/labtop.jpg" height="200" width="200px"Laptop used for studying">
+                <figcaption>My Study Time</figcaption>
+            </figure>
+        </section>
+        <hr>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Full Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+                <br><br>
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@email.com"
+                    required
+                >
+                <br><br>
+                <label for="phone">Phone Number:</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                >
+                <br><br>
+                <label for="birthdate">Date of Birth:</label>
+                <input
+                    type="date"
+                    id="birthdate"
+                    name="birthdate"
+                >
+                <br><br>
+                <label for="topic">Choose a Topic:</label>
+                <select id="topic" name="topic">
+                    <option value="general">General Question</option>
+                    <option value="project">Project</option>
+                    <option value="work">Work</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+                <p>Preferred Contact Method:</p>
+                <input
+                    type="radio"
+                    id="contact-email"
+                    name="contact-method"
+                    value="email"
+                >
+                <label for="contact-email">Email</label>
+                <input
+                    type="radio"
+                    id="contact-phone"
+                    name="contact-method"
+                    value="phone"
+                >
+                <label for="contact-phone">Phone</label>
+                <br><br>
+                <label for="message">Your Message:</label>
+                <br>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    cols="30"
+                    placeholder="Write your message here"
+                ></textarea>
+                <br><br>
+                <input
+                    type="checkbox"
+                    id="terms"
+                    name="terms"
+                    required
+                >
+                <label for="terms">I agree to the terms and conditions.</label>
+                <br><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+        <hr>
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <details>
+                <summary>What do you study?</summary>
+                <p>I study Systems and Computing Engineering.</p>
+            </details>
+            <details>
+                <summary>What are you learning now?</summary>
+                <p>I am currently learning web development.</p>
+            </details>
+            <details>
+                <summary>What is your goal?</summary>
+                <p>My goal is to become a professional developer.</p>
+            </details>
+        </section>
+    </main>
+    <hr> 
+    <footer>
+        <address>
+            Email:
+            <a href="mailto:boshra@example.com">bushra@example.com</a>
+            <br>
+            Location: Egypt
+        </address>
+        <p>
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            &nbsp;|&nbsp;
+            <a href="https://github.com/" target="_blank">GitHub</a>
+        </p>
+        <p>&copy; 2026 Boshra Ebraheem. All rights reserved.</p>
+    </footer>
+</body>
+</html>
