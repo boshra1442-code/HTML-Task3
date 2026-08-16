@@ -79,7 +79,7 @@ h2 {
 }
 
 .contact {
-    --contact-color: #6c63ff;
+    color: #6c63ff;
     width: 80%;
     min-height: 150px;
     background-color: white;
