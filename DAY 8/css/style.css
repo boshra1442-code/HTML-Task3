@@ -151,3 +151,107 @@
     padding: 10px 0;
     border-bottom: 1px dashed #e0e0e0; 
 }
+/* /////////////////////////////////////////////////////////// */
+.location-section {
+    padding: 80px 10%;
+    background-color: #f4f4f4;
+}
+
+.location-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.location-content {
+    flex: 1;
+}
+
+.location-content h2 {
+    font-size: 32px;
+    color: #3e2723;
+    margin-bottom: 25px;
+}
+
+.location-content p {
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.location-image {
+    flex: 1;
+}
+
+.location-image {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    background-image: url('../assets/images/BAKARY.jpg');
+    background-size: cover;
+    background-position: center; 
+    border-radius: 5px;
+    box-shadow: 0 8px 20px rgba(140, 90, 43, 0.4);
+}
+/* ////////////////////////////////////////////////////////////////////////////////// */
+.offers-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.offers-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.offer-items{
+    flex: 1;
+    text-align: center;
+}
+
+.offer-items .img-item {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    box-shadow: 0 8px 20px rgba(140, 90, 43, 0.4);
+}
+
+.offer-items.superior-breads .img-item {
+    background-image: url('../assets/images/breads.jpg');
+}
+
+.offer-items.bagels .img-item{
+    background-image: url('../assets/images/bagels.jpg');
+}
+
+.offer-items.cookies .img-item {
+    background-image: url('../assets/images/cookies.jpg');
+}
+
+.offer-items h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.offer-items p {
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+/* //////////////////////////////////////////////////////////////////////////////// */
